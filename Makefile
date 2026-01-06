@@ -1,9 +1,7 @@
 build: src/**
 	bun build src/extension.ts \
-		--external "gi://GLib" \
-		--external "gi://Meta" \
-		--external "resource:///org/gnome/shell/extensions/extension.js" \
-		--external "resource:///org/gnome/shell/ui/main.js" \
+		--external "gi://*" \
+		--external "resource://*" \
 		--outfile extension.js
 
 attach: build
