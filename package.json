@@ -1,0 +1,16 @@
+{
+  "name": "wm",
+  "version": "0.0.1",
+  "description": "Hyprland-inspired window management for GNOME Shell.",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^9.27.0",
+    "eslint-plugin-jsdoc": "^50.6.17",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@girs/gjs": "^4.0.0-beta.23",
+    "@girs/gnome-shell": "^48.0.4"
+  }
+}

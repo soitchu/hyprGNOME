@@ -1,0 +1,11 @@
+{
+  "name": "Window Manager",
+  "description": "Hyprland-inspired window management for GNOME Shell.",
+  "uuid": "wm@soitchu.com",
+  "shell-version": [
+    "47",
+    "48",
+    "49"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.wm"
+}
